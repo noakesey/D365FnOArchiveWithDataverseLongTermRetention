@@ -23,7 +23,22 @@ INSERT INTO @tmpDataTable values(2,'SO','SALESTABLE_BR','SALESTABLEHISTORY_BR','
 INSERT INTO @tmpDataTable values(2,'SO','SALESTABLE_RU','SALESTABLEHISTORY_RU','SalestableruBiEntity')
 INSERT INTO @tmpDataTable values(2,'SO','SALESTABLE_W','SALESTABLEHISTORY_W','SalestablewBiEntity')
 INSERT INTO @tmpDataTable values(3,'InvTrn','INVENTTRANSARCHIVE','INVENTTRANSARCHIVEHISTORY','InventtransarchiveBiEntity')
-INSERT INTO @tmpDataTable values(3,'InvTrn','INVENTTRANS','INVENTTRANSARCHIVE','INVENTTRANSARCHIVEHISTORY,InventtransarchiveBiEntity')
+INSERT INTO @tmpDataTable values(3,'InvTrn','INVENTTRANS','INVENTTRANSARCHIVEHISTORY,InventtransarchiveBiEntity')
+INSERT INTO @tmpDataTable values(3,'InvJour','INVENTJOURNALTABLE','INVENTJOURNALTABLEHISTORY','InventjournaltableBiEntity')
+INSERT INTO @tmpDataTable values(3,'InvJour','INVENTJOURNALTABLE_IN','INVENTJOURNALTABLE_INHISTORY','InventjournaltableinBiEntity')
+INSERT INTO @tmpDataTable values(3,'InvJour','INVENTJOURNALTRANS','INVENTJOURNALTRANSHISTORY','InventjournaltransBiEntity')
+INSERT INTO @tmpDataTable values(3,'InvJour','INVENTJOURNALTRANS_IN','INVENTJOURNALTRANS_INHISTORY','InventjournaltransinBiEntity)
+INSERT INTO @tmpDataTable values(3,'TaxTrans','TAXTRANS','TAXTRANSHISTORY','TaxtransBiEntity')
+INSERT INTO @tmpDataTable values(3,'TaxTrans','TAXTRANS_BR','TAXTRANSHISTORY_BR','TaxtransbrBiEntity')
+INSERT INTO @tmpDataTable values(3,'TaxTrans','TAXTRANSGENERALJOURNALACCOUNTENTRY','TAXTRANSGENERALJOURNALACCOUNTENTRYHISTORY','TaxtransgeneraljournalaccountentryBiEntity')
+INSERT INTO @tmpDataTable values(3,'TaxTrans','TAXTRANS_IN','TAXTRANSHISTORY_IN','TaxtransinBiEntity')
+INSERT INTO @tmpDataTable values(3,'TaxTrans','TAXTRANS_IT','TAXTRANSHISTORY_IT','TaxtransitBiEntity')
+INSERT INTO @tmpDataTable values(3,'TaxTrans','TAXTRANS_REPORTING','TAXTRANSHISTORY_REPORTING','TaxtransreportingBiEntity')
+INSERT INTO @tmpDataTable values(3,'TaxTrans','TAXTRANS_RU','TAXTRANSHISTORY_RU','TaxtransruBiEntity')
+INSERT INTO @tmpDataTable values(3,'TaxTrans','TAXTRANSSUBLEDGERJOURNALACCOUNTENTRY','TAXTRANSSUBLEDGERJOURNALACCOUNTENTRYHISTORY','TaxtranssubledgerjournalaccountentryBiEntity')
+INSERT INTO @tmpDataTable values(3,'TaxTrans','TAXTRANS_TH','TAXTRANSHISTORY_TH','TaxtransthBiEntity')
+INSERT INTO @tmpDataTable values(3,'TaxTrans','TAXTRANS_W','TAXTRANSHISTORY_W','TaxtranswBiEntity')
+
 --=====================================================================
 --SELECT QUERY TO IDENTIFY SCHEMA MISMATCH
 --=====================================================================
